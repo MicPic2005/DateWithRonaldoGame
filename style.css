@@ -1,0 +1,120 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.title-screen{
+  display: block;
+}
+
+.screen-one{
+  display: none;
+  margin-top: 10%;
+}
+
+body {
+  text-align: center;
+  background-image: url("https://img.freepik.com/premium-photo/wooden-table-blank-front-blurred-restaurant-background_32771-744.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+img {
+    width: 350px;
+    margin: auto;
+}
+
+#title {
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(255, 0, 102);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+button{
+  font-family: Georgia;
+  font-size: 35px;
+  border: none;
+  color: hotpink;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 12px;
+}
+
+.text-box {
+  font-size: 50px;
+  color: rgb(255, 0, 102);
+  border: 5px rgb(255, 0, 102) solid;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.screen-two{
+  display: none;
+  margin-top: 5%
+}
+
+.screen-three{
+  display: none;
+}
+
+.game-over-screen{
+  display: none;
+  background-color: black;
+  margin-top: 5%;
+}
+
+.game-over-text{
+  color: white;
+  font-size: 50px;
+}
+
+.win-text{
+  color: white;
+  font-size: 50px;
+}
+
+#text2{
+  color:red;
+  font-size:50px;
+}
+
+#you-win{
+  color:green;
+  font-size:50px;
+}
+
+.img-one{
+  display:none;
+}
+
+.img-two{
+  display:none;
+}
+
+.screen-four{
+  display: none;
+}
+
+.screen-five{
+  display: none;
+}
+
+.screen-six{
+  display: none;
+}
+
+.win-screen{
+  display: none;
+  background-color: black;
+  margin-top: 5%;
+}
